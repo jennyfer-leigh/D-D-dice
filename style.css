@@ -1,0 +1,60 @@
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 62, 10);
+}
+
+.container{
+    background-image: url('background.jpg');
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.die-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;;
+}
+
+.die{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('dragonScales.jpg');
+    background-size: 100%;
+    border: 5px solid goldenrod;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+    height: 70%;
+    width: 70%;
+    margin: 10px;
+}
+
+p{
+    color: goldenrod;
+    text-shadow: 3px 1px black;
+    font-size: 6rem;
+}
+
+#d100 p, #dpercent p{
+    font-size: 4.5rem;
+}
+
+
+
+.button{
+    margin:10px;
+}
